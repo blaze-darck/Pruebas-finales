@@ -15,18 +15,19 @@
 </head>
 <body>
     <form>
-        <h2>Encuesta rapida</h2>
+        <h2>Formulario con lista de area y texto</h2>
         POSTRES: <br>
-        <input type="radio" name="postre" value="T" > Torta
-        <input type="radio" name="postre" value="C" > Cupcke
-        <input type="radio" name="postre" value="F" > Frape
-        APERITIVOS: <br>
-        <input type="checkbox" name="aperitivo" value="galletas"> Galletas <br>
-        <input type="checkbox" name="aperitivo2" value="waffles"> waffles <br>
-        <input type="checkbox" name="aperitivo3" value="empanadas"> empanadas <br>
-        <br>
+        <select >
+            <option value="to">Torta</option>
+            <option value="ta">Tarta</option>
+            <option value="pa">Pay</option>
+            <option value="br">Brazo gitano</option>
+            <option value="mo">Mochi</option>
+        </select> <br> <br>
 
-        <input type="submit" value="Guardar">
+        Comentarios:
+        <textarea rows="5" cols="40" placeholder="Danos tu opinion de la reposteria.........."></textarea> <br> <br>
+        <input type="submit" value="enviar">
         
             
     </form>
